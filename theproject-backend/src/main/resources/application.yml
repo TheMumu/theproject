@@ -1,0 +1,11 @@
+spring:
+  freemarker:
+    template-loader-path: file:/etc/myapp/assets/templates/
+    prefer-file-system-access: true
+
+  resources:
+    staticLocations: file:/etc/myapp/assets/
+
+content:
+  json:
+    path: /etc/myapp/assets/json/

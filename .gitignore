@@ -1,0 +1,11 @@
+theproject-backend/target
+theproject-frontend/target
+/.settings/
+/.mvn/
+.idea/
+workspace.xml
+*.iml
+node/
+node_modules/
+*.DS_Store
+/.DS_Store

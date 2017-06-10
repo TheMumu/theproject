@@ -1,0 +1,11 @@
+spring:
+  freemarker:
+    template-loader-path: file:${user.dir}/../theproject-frontend/assets/templates/
+    prefer-file-system-access: true
+
+  resources:
+    staticLocations: file:${user.dir}/../theproject-frontend/target/assets/
+
+content:
+  json:
+    path: ${user.dir}/../theproject-frontend/target/assets/json/
