@@ -2,10 +2,10 @@
 
 1. first clone the project in the directory of your choice : git clone https://github.com/TheMumu/theproject.git
 
-2. Build Frontend : in theproject/theproject-frontend directory run “npm install” then run “grunt”
+2. Build Frontend : in /theproject/theproject-frontend directory run “npm install” then run “grunt”
 (If you want to avoid running “grunt” everytime you make a fronted change to see the modification, run “grunt watch”, it will publish your modification immediately when you make a change)
 
-3. Build backend : in the project/theproject-backend directory run “mvn clean package”
+3. Build backend : in /theproject/theproject-backend directory run “mvn clean install”
 
 4. then start the application by running "mvn spring-boot:run -Dspring.profiles.active=local”
 
